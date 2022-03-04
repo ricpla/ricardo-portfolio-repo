@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.shadow-effect {
+    background: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    text-align: center;
+    border: 1px solid #ECECEC;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.10), 0 15px 12px rgba(0, 0, 0, 0.02);
+}
+
+p,
+i,
+strong {
+    font-size: larger;
+}
+
+.btns {
+    background-color: transparent;
+    color: rgb(255, 202, 29);
+    border: none;
+    
+}
+

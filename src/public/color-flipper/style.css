@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(28, 30, 44);
+    text-decoration: none;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.nav-center {
+    height: 3em;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.253);
+    font-size: 1.5em;
+}
+
+#title {
+    font-weight: 800;
+    color: blue;
+    animation-name: rainbow;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: step-end;
+}
+
+@keyframes rainbow {
+    0% {
+        color: blue;
+    }
+    25% {
+        color: green;
+    }
+    50% {
+        color: red;
+    }
+    75% {
+        color: yellow;
+    }
+    100% {
+        color: blue;
+    }
+}
+
+.nav-center h4,
+ul,
+li,
+a {
+    margin: auto;
+    list-style: none;
+    display: flex;
+    align-items: flex-end;
+    padding: 5px;
+    font-weight: bold;
+    text-decoration-line: none;
+}
+
+.nav-center a:hover {
+    text-decoration-line: underline;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15em;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container h2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 15px;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    background-color: #363636;
+    border-radius: 15px;
+}
+
+.color {
+    color: aquamarine;
+}
+
+.btn {
+    background-color: transparent;
+    border-style: none;
+    border: 2px solid rgb(28, 30, 44);
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: monospace;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    background-color: aquamarine;
+}

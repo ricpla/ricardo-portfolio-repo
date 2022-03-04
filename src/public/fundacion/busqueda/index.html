@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundación Santiago Mariño</title>
+    <link rel="stylesheet" href="owl.carousel.min.css">
+    <link rel="stylesheet" href="owl.theme.default.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Favicons -->
+    <meta name="theme-color" content="#7952b3">
+
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+        
+        .white {
+            color: white;
+        }
+        
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+            .d-flex {
+                margin-bottom: 10px;
+            }
+        }
+        
+        @media (min-width: 400px) {
+            .d-flex {
+                margin-bottom: 10px;
+            }
+        }
+        
+        #hover {
+            background-color: transparent;
+            border-radius: 25px;
+            transition: 0.1s;
+            color: #0e1f7b;
+        }
+        
+        #hover:hover {
+            color: #2b882f;
+            font-weight: bold;
+        }
+        
+        #social {
+            transition: 0.5s;
+        }
+        
+        #social:hover {
+            transform: scale(1) translateY(-15px);
+        }
+    </style>
+
+
+    <!-- Custom styles for this template -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="./css/carousel.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/custom.css">
+</head>
+
+<!-- BODY -->
+
+<body>
+
+    <!-- OPEN HEADER -->
+    <scroll-container>
+        <header>
+            <nav class="navbar navbar-expand-md navbar-light fixed-top bg-white shadow p-3 mb-5">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="https://i.postimg.cc/syYxfVKV/Recurso-41.png" alt="logo" style="width: 200px;"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                            <li class="nav-item">
+                                <a class="nav-link active fw-bold" id="hover" aria-current="page" href="#">INICIO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="hover" href="#page-1">PROGRAMAS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="hover" href="#page-2">EVENTOS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="hover" href="#page-3">NOTICIAS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="hover" href="#page-4">CONTACTANOS</a>
+                            </li>
+                        </ul>
+
+
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Buscar</button>
+                        </form>
+                        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+
+                            <li class="ms-3" id="social"><a class="text-muted" href="https://www.instagram.com/fundasmarino/"><svg class="bi" width="30" height="30" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram" class="svg-inline--fa fa-instagram" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#134189" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path><use xlink:href="#instagram"/></svg></a></li>
+                            <li class="ms-3" id="social"><a class="text-muted" href="https://twitter.com/fundasmarino"><svg class="bi" width="30" height="30" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter" class="svg-inline--fa fa-twitter" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="#134189" d="M459.4 151.7c.325 4.548 .325 9.097 .325 13.65 0 138.7-105.6 298.6-298.6 298.6-59.45 0-114.7-17.22-161.1-47.11 8.447 .974 16.57 1.299 25.34 1.299 49.06 0 94.21-16.57 130.3-44.83-46.13-.975-84.79-31.19-98.11-72.77 6.498 .974 12.99 1.624 19.82 1.624 9.421 0 18.84-1.3 27.61-3.573-48.08-9.747-84.14-51.98-84.14-102.1v-1.299c13.97 7.797 30.21 12.67 47.43 13.32-28.26-18.84-46.78-51.01-46.78-87.39 0-19.49 5.197-37.36 14.29-52.95 51.65 63.67 129.3 105.3 216.4 109.8-1.624-7.797-2.599-15.92-2.599-24.04 0-57.83 46.78-104.9 104.9-104.9 30.21 0 57.5 12.67 76.67 33.14 23.72-4.548 46.46-13.32 66.6-25.34-7.798 24.37-24.37 44.83-46.13 57.83 21.12-2.273 41.58-8.122 60.43-16.24-14.29 20.79-32.16 39.31-52.63 54.25z"></path><use xlink:href="#twitter"/></svg></a></li>
+                            <li class="ms-3" id="social"><a class="text-muted" href="https://www.facebook.com/fundasmarino/"><svg class="bi" width="30" height="30" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-square" class="svg-inline--fa fa-facebook-square" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#134189" d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.3V327.7h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0 -48-48z"></path><use xlink:href="#facebook"/></svg></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- CLOSE HEADER -->
+
+        <!-- OPEN MAIN -->
+
+        <main>
+            <div class="container marketing">
+
+                <!-- OPEN PROGRAMAS -->
+
+
+                <!-- /.row -->
+
+                <!-- CLOSE PROGRAMAS -->
+
+                <!-- Instagram open -->
+
+                <hr class="featurette-divider">
+
+                <div class="container fw-bold scroll2" style="margin-top: -30px; margin-bottom: 40px;">
+                    <div class="row">
+                        <svg id="Capa_1" class="col-lg-4" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1684 208"><defs><style>.cls-1,.cls-2,.cls-5{fill:none;stroke-miterlimit:10;stroke-width:2px;}.cls-1{stroke:#2b882f;}.cls-2{stroke:#feb111;}.cls-3{fill:#2b882f;}.cls-4{fill:#feb111;}.cls-5{stroke:#0e1f7b;}.cls-6{fill:#0e1f7b;}</style></defs><rect class="cls-1" x="1211.57" y="111.04" width="84.13" height="87.79" rx="42.06" transform="translate(1408.57 -1098.7) rotate(90)"/><rect class="cls-2" x="959.96" y="-99.19" width="84.13" height="296.33" rx="42.06" transform="translate(953.05 1051) rotate(-90)"/><rect class="cls-3" x="1064.56" y="63.22" width="84.13" height="183.44" rx="42.06" transform="translate(951.69 1261.56) rotate(-90)"/><rect class="cls-1" x="1492.7" y="5.08" width="84.13" height="87.79" rx="42.06" transform="translate(1485.78 1583.73) rotate(-90)"/><rect class="cls-3" x="1325.41" y="-65.47" width="84.13" height="228.89" rx="42.06" transform="translate(1318.5 1416.45) rotate(-90)"/><path class="cls-4" d="M1158.77,49h0c0,23.14,19.26,42.07,42.8,42.07H1203c23.53,0,42.79-18.93,42.79-42.07h0c0-23.13-19.26-42.06-42.79-42.06h-1.38C1178,6.91,1158.77,25.84,1158.77,49Z"/><rect class="cls-2" x="1591.26" y="5.08" width="84.13" height="87.79" rx="42.06" transform="translate(1682.3 -1584.35) rotate(90)"/><rect class="cls-5" x="1503.21" y="20.22" width="84.13" height="269.44" rx="42.06" transform="translate(1700.21 -1390.34) rotate(90)"/><rect class="cls-6" x="1315.81" y="111.04" width="84.13" height="87.79" rx="42.06" transform="translate(1512.81 -1202.94) rotate(90)"/><rect class="cls-1" x="201.67" y="111.04" width="84.13" height="87.79" rx="42.06" transform="translate(398.67 -88.8) rotate(90)"/><rect class="cls-3" x="54.65" y="63.22" width="84.13" height="183.44" rx="42.06" transform="translate(-58.22 251.65) rotate(-90)"/><rect class="cls-4" x="750.83" y="40.49" width="84.13" height="228.89" rx="42.06" transform="translate(947.83 -637.96) rotate(90)"/><rect class="cls-1" x="378.7" y="-65.47" width="84.13" height="228.89" rx="42.06" transform="translate(371.79 469.74) rotate(-90)"/><rect class="cls-6" x="700.02" y="-49.81" width="84.13" height="197.56" rx="42.06" transform="translate(791.05 -693.11) rotate(90)"/><rect class="cls-4" x="64.02" y="-49.81" width="84.13" height="197.56" rx="42.06" transform="translate(155.05 -57.11) rotate(90)"/><path class="cls-3" d="M212.07,49h0c0,23.14,19.25,42.07,42.79,42.07h1.38C279.78,91,299,72.11,299,49h0c0-23.13-19.25-42.06-42.79-42.06h-1.38C231.32,6.91,212.07,25.84,212.07,49Z"/><rect class="cls-5" x="548.55" y="5.08" width="84.13" height="87.79" rx="42.06" transform="translate(639.59 -541.64) rotate(90)"/><rect class="cls-2" x="917.68" y="111.04" width="84.13" height="87.79" rx="42.06" transform="translate(1114.68 -804.81) rotate(90)"/><rect class="cls-5" x="493.31" y="20.22" width="84.13" height="269.44" rx="42.06" transform="translate(690.31 -380.43) rotate(90)"/><rect class="cls-6" x="305.91" y="111.04" width="84.13" height="87.79" rx="42.06" transform="translate(502.91 -193.03) rotate(90)"/></svg>
+
+                        <h1 class="display-3 text-center b-4 col-lg-4" style="font-weight: 900; color: #134189;">EVENTOS</h1>
+
+                        <svg id="Capa_1" class="col-lg-4" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1684 208"><defs><style>.cls-1,.cls-2,.cls-5{fill:none;stroke-miterlimit:10;stroke-width:2px;}.cls-1{stroke:#2b882f;}.cls-2{stroke:#feb111;}.cls-3{fill:#2b882f;}.cls-4{fill:#feb111;}.cls-5{stroke:#0e1f7b;}.cls-6{fill:#0e1f7b;}</style></defs><rect class="cls-1" x="1211.57" y="111.04" width="84.13" height="87.79" rx="42.06" transform="translate(1408.57 -1098.7) rotate(90)"/><rect class="cls-2" x="959.96" y="-99.19" width="84.13" height="296.33" rx="42.06" transform="translate(953.05 1051) rotate(-90)"/><rect class="cls-3" x="1064.56" y="63.22" width="84.13" height="183.44" rx="42.06" transform="translate(951.69 1261.56) rotate(-90)"/><rect class="cls-1" x="1492.7" y="5.08" width="84.13" height="87.79" rx="42.06" transform="translate(1485.78 1583.73) rotate(-90)"/><rect class="cls-3" x="1325.41" y="-65.47" width="84.13" height="228.89" rx="42.06" transform="translate(1318.5 1416.45) rotate(-90)"/><path class="cls-4" d="M1158.77,49h0c0,23.14,19.26,42.07,42.8,42.07H1203c23.53,0,42.79-18.93,42.79-42.07h0c0-23.13-19.26-42.06-42.79-42.06h-1.38C1178,6.91,1158.77,25.84,1158.77,49Z"/><rect class="cls-2" x="1591.26" y="5.08" width="84.13" height="87.79" rx="42.06" transform="translate(1682.3 -1584.35) rotate(90)"/><rect class="cls-5" x="1503.21" y="20.22" width="84.13" height="269.44" rx="42.06" transform="translate(1700.21 -1390.34) rotate(90)"/><rect class="cls-6" x="1315.81" y="111.04" width="84.13" height="87.79" rx="42.06" transform="translate(1512.81 -1202.94) rotate(90)"/><rect class="cls-1" x="201.67" y="111.04" width="84.13" height="87.79" rx="42.06" transform="translate(398.67 -88.8) rotate(90)"/><rect class="cls-3" x="54.65" y="63.22" width="84.13" height="183.44" rx="42.06" transform="translate(-58.22 251.65) rotate(-90)"/><rect class="cls-4" x="750.83" y="40.49" width="84.13" height="228.89" rx="42.06" transform="translate(947.83 -637.96) rotate(90)"/><rect class="cls-1" x="378.7" y="-65.47" width="84.13" height="228.89" rx="42.06" transform="translate(371.79 469.74) rotate(-90)"/><rect class="cls-6" x="700.02" y="-49.81" width="84.13" height="197.56" rx="42.06" transform="translate(791.05 -693.11) rotate(90)"/><rect class="cls-4" x="64.02" y="-49.81" width="84.13" height="197.56" rx="42.06" transform="translate(155.05 -57.11) rotate(90)"/><path class="cls-3" d="M212.07,49h0c0,23.14,19.25,42.07,42.79,42.07h1.38C279.78,91,299,72.11,299,49h0c0-23.13-19.25-42.06-42.79-42.06h-1.38C231.32,6.91,212.07,25.84,212.07,49Z"/><rect class="cls-5" x="548.55" y="5.08" width="84.13" height="87.79" rx="42.06" transform="translate(639.59 -541.64) rotate(90)"/><rect class="cls-2" x="917.68" y="111.04" width="84.13" height="87.79" rx="42.06" transform="translate(1114.68 -804.81) rotate(90)"/><rect class="cls-5" x="493.31" y="20.22" width="84.13" height="269.44" rx="42.06" transform="translate(690.31 -380.43) rotate(90)"/><rect class="cls-6" x="305.91" y="111.04" width="84.13" height="87.79" rx="42.06" transform="translate(502.91 -193.03) rotate(90)"/></svg>
+                    </div>
+                </div>
+
+
+
+                <div class="row" id="page-2">
+                    <div class="col-lg-4 scroll2">
+
+                        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CaClPANFUVp/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+                            <div style="padding:16px;">
+                                <a href="https://www.instagram.com/p/CaClPANFUVp/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank">
+                                    <div style=" display: flex; flex-direction: row; align-items: center;">
+                                        <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div>
+                                        <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;">
+                                            <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div>
+                                            <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div>
+                                        </div>
+                                    </div>
+                                    <div style="padding: 19% 0;"></div>
+                                    <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div>
+                                    <div style="padding-top: 8px;">
+                                        <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">Ver esta publicación en Instagram</div>
+                                    </div>
+                                    <div style="padding: 12.5% 0;"></div>
+                                    <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;">
+                                        <div>
+                                            <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div>
+                                            <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div>
+                                            <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div>
+                                        </div>
+                                        <div style="margin-left: 8px;">
+                                            <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div>
+                                            <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div>
+                                        </div>
+                                        <div style="margin-left: auto;">
+                                            <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div>
+                                            <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div>
+                                            <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div>
+                                        </div>
+                                    </div>
+                                    <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;">
+                                        <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div>
+                                        <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div>
+                                    </div>
+                                </a>
+                                <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/CaClPANFUVp/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;"
+                                        target="_blank">Una publicación compartida de Fundación Santiago Mariño (@fundasmarino)</a></p>
+                            </div>
+                        </blockquote>
+                        <script async src="//www.instagram.com/embed.js"></script>
+                    </div>
+
+                    <div class="col-lg-4 scroll3">
+                        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CZxlRLPJCh1/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+                            <div style="padding:16px;">
+                                <a href="https://www.instagram.com/p/CZxlRLPJCh1/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank">
+                                    <div style=" display: flex; flex-direction: row; align-items: center;">
+                                        <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div>
+                                        <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;">
+                                            <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div>
+                                            <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div>
+                                        </div>
+                                    </div>
+                                    <div style="padding: 19% 0;"></div>
+                                    <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div>
+                                    <div style="padding-top: 8px;">
+                                        <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">Ver esta publicación en Instagram</div>
+                                    </div>
+                                    <div style="padding: 12.5% 0;"></div>
+                                    <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;">
+                                        <div>
+                                            <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div>
+                                            <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div>
+                                            <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div>
+                                        </div>
+                                        <div style="margin-left: 8px;">
+                                            <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div>
+                                            <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div>
+                                        </div>
+                                        <div style="margin-left: auto;">
+                                            <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div>
+                                            <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div>
+                                            <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div>
+                                        </div>
+                                    </div>
+                                    <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;">
+                                        <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div>
+                                        <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div>
+                                    </div>
+                                </a>
+                                <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/CZxlRLPJCh1/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;"
+                                        target="_blank">Una publicación compartida de Fundación Santiago Mariño (@fundasmarino)</a></p>
+                            </div>
+                        </blockquote>
+                        <script async src="//www.instagram.com/embed.js"></script>
+                    </div>
+
+                    <div class="col-lg-4 scroll4">
+                        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CZuxaQzp8ZY/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+                            <div style="padding:16px;">
+                                <a href="https://www.instagram.com/p/CZuxaQzp8ZY/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank">
+                                    <div style=" display: flex; flex-direction: row; align-items: center;">
+                                        <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div>
+                                        <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;">
+                                            <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div>
+                                            <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div>
+                                        </div>
+                                    </div>
+                                    <div style="padding: 19% 0;"></div>
+                                    <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div>
+                                    <div style="padding-top: 8px;">
+                                        <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">Ver esta publicación en Instagram</div>
+                                    </div>
+                                    <div style="padding: 12.5% 0;"></div>
+                                    <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;">
+                                        <div>
+                                            <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div>
+                                            <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div>
+                                            <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div>
+                                        </div>
+                                        <div style="margin-left: 8px;">
+                                            <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div>
+                                            <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div>
+                                        </div>
+                                        <div style="margin-left: auto;">
+                                            <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div>
+                                            <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div>
+                                            <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div>
+                                        </div>
+                                    </div>
+                                    <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;">
+                                        <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div>
+                                        <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div>
+                                    </div>
+                                </a>
+                                <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/CZuxaQzp8ZY/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;"
+                                        target="_blank">Una publicación compartida de Fundación Santiago Mariño (@fundasmarino)</a></p>
+                            </div>
+                        </blockquote>
+                        <script async src="//www.instagram.com/embed.js"></script>
+                    </div>
+
+                </div>
+
+                <!-- instagram close -->
+
+                <!-- START THE FEATURETTES -->
+
+                <hr class="featurette-divider">
+
+                <div class="container fw-bold scroll1" id="page-3" style="margin-top: -30px; margin-bottom: 40px;">
+                    <div class="row">
+                        <svg id="Capa_1" class="col-lg-4" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1684 208"><defs><style>.cls-1,.cls-2,.cls-5{fill:none;stroke-miterlimit:10;stroke-width:2px;}.cls-1{stroke:#2b882f;}.cls-2{stroke:#feb111;}.cls-3{fill:#2b882f;}.cls-4{fill:#feb111;}.cls-5{stroke:#0e1f7b;}.cls-6{fill:#0e1f7b;}</style></defs><rect class="cls-1" x="1211.57" y="111.04" width="84.13" height="87.79" rx="42.06" transform="translate(1408.57 -1098.7) rotate(90)"/><rect class="cls-2" x="959.96" y="-99.19" width="84.13" height="296.33" rx="42.06" transform="translate(953.05 1051) rotate(-90)"/><rect class="cls-3" x="1064.56" y="63.22" width="84.13" height="183.44" rx="42.06" transform="translate(951.69 1261.56) rotate(-90)"/><rect class="cls-1" x="1492.7" y="5.08" width="84.13" height="87.79" rx="42.06" transform="translate(1485.78 1583.73) rotate(-90)"/><rect class="cls-3" x="1325.41" y="-65.47" width="84.13" height="228.89" rx="42.06" transform="translate(1318.5 1416.45) rotate(-90)"/><path class="cls-4" d="M1158.77,49h0c0,23.14,19.26,42.07,42.8,42.07H1203c23.53,0,42.79-18.93,42.79-42.07h0c0-23.13-19.26-42.06-42.79-42.06h-1.38C1178,6.91,1158.77,25.84,1158.77,49Z"/><rect class="cls-2" x="1591.26" y="5.08" width="84.13" height="87.79" rx="42.06" transform="translate(1682.3 -1584.35) rotate(90)"/><rect class="cls-5" x="1503.21" y="20.22" width="84.13" height="269.44" rx="42.06" transform="translate(1700.21 -1390.34) rotate(90)"/><rect class="cls-6" x="1315.81" y="111.04" width="84.13" height="87.79" rx="42.06" transform="translate(1512.81 -1202.94) rotate(90)"/><rect class="cls-1" x="201.67" y="111.04" width="84.13" height="87.79" rx="42.06" transform="translate(398.67 -88.8) rotate(90)"/><rect class="cls-3" x="54.65" y="63.22" width="84.13" height="183.44" rx="42.06" transform="translate(-58.22 251.65) rotate(-90)"/><rect class="cls-4" x="750.83" y="40.49" width="84.13" height="228.89" rx="42.06" transform="translate(947.83 -637.96) rotate(90)"/><rect class="cls-1" x="378.7" y="-65.47" width="84.13" height="228.89" rx="42.06" transform="translate(371.79 469.74) rotate(-90)"/><rect class="cls-6" x="700.02" y="-49.81" width="84.13" height="197.56" rx="42.06" transform="translate(791.05 -693.11) rotate(90)"/><rect class="cls-4" x="64.02" y="-49.81" width="84.13" height="197.56" rx="42.06" transform="translate(155.05 -57.11) rotate(90)"/><path class="cls-3" d="M212.07,49h0c0,23.14,19.25,42.07,42.79,42.07h1.38C279.78,91,299,72.11,299,49h0c0-23.13-19.25-42.06-42.79-42.06h-1.38C231.32,6.91,212.07,25.84,212.07,49Z"/><rect class="cls-5" x="548.55" y="5.08" width="84.13" height="87.79" rx="42.06" transform="translate(639.59 -541.64) rotate(90)"/><rect class="cls-2" x="917.68" y="111.04" width="84.13" height="87.79" rx="42.06" transform="translate(1114.68 -804.81) rotate(90)"/><rect class="cls-5" x="493.31" y="20.22" width="84.13" height="269.44" rx="42.06" transform="translate(690.31 -380.43) rotate(90)"/><rect class="cls-6" x="305.91" y="111.04" width="84.13" height="87.79" rx="42.06" transform="translate(502.91 -193.03) rotate(90)"/></svg>
+
+                        <h1 class="display-3 text-center b-4 col-lg-4" style="font-weight: 900; color: #134189;">NOTICIAS</h1>
+
+                        <svg id="Capa_1" class="col-lg-4" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1684 208"><defs><style>.cls-1,.cls-2,.cls-5{fill:none;stroke-miterlimit:10;stroke-width:2px;}.cls-1{stroke:#2b882f;}.cls-2{stroke:#feb111;}.cls-3{fill:#2b882f;}.cls-4{fill:#feb111;}.cls-5{stroke:#0e1f7b;}.cls-6{fill:#0e1f7b;}</style></defs><rect class="cls-1" x="1211.57" y="111.04" width="84.13" height="87.79" rx="42.06" transform="translate(1408.57 -1098.7) rotate(90)"/><rect class="cls-2" x="959.96" y="-99.19" width="84.13" height="296.33" rx="42.06" transform="translate(953.05 1051) rotate(-90)"/><rect class="cls-3" x="1064.56" y="63.22" width="84.13" height="183.44" rx="42.06" transform="translate(951.69 1261.56) rotate(-90)"/><rect class="cls-1" x="1492.7" y="5.08" width="84.13" height="87.79" rx="42.06" transform="translate(1485.78 1583.73) rotate(-90)"/><rect class="cls-3" x="1325.41" y="-65.47" width="84.13" height="228.89" rx="42.06" transform="translate(1318.5 1416.45) rotate(-90)"/><path class="cls-4" d="M1158.77,49h0c0,23.14,19.26,42.07,42.8,42.07H1203c23.53,0,42.79-18.93,42.79-42.07h0c0-23.13-19.26-42.06-42.79-42.06h-1.38C1178,6.91,1158.77,25.84,1158.77,49Z"/><rect class="cls-2" x="1591.26" y="5.08" width="84.13" height="87.79" rx="42.06" transform="translate(1682.3 -1584.35) rotate(90)"/><rect class="cls-5" x="1503.21" y="20.22" width="84.13" height="269.44" rx="42.06" transform="translate(1700.21 -1390.34) rotate(90)"/><rect class="cls-6" x="1315.81" y="111.04" width="84.13" height="87.79" rx="42.06" transform="translate(1512.81 -1202.94) rotate(90)"/><rect class="cls-1" x="201.67" y="111.04" width="84.13" height="87.79" rx="42.06" transform="translate(398.67 -88.8) rotate(90)"/><rect class="cls-3" x="54.65" y="63.22" width="84.13" height="183.44" rx="42.06" transform="translate(-58.22 251.65) rotate(-90)"/><rect class="cls-4" x="750.83" y="40.49" width="84.13" height="228.89" rx="42.06" transform="translate(947.83 -637.96) rotate(90)"/><rect class="cls-1" x="378.7" y="-65.47" width="84.13" height="228.89" rx="42.06" transform="translate(371.79 469.74) rotate(-90)"/><rect class="cls-6" x="700.02" y="-49.81" width="84.13" height="197.56" rx="42.06" transform="translate(791.05 -693.11) rotate(90)"/><rect class="cls-4" x="64.02" y="-49.81" width="84.13" height="197.56" rx="42.06" transform="translate(155.05 -57.11) rotate(90)"/><path class="cls-3" d="M212.07,49h0c0,23.14,19.25,42.07,42.79,42.07h1.38C279.78,91,299,72.11,299,49h0c0-23.13-19.25-42.06-42.79-42.06h-1.38C231.32,6.91,212.07,25.84,212.07,49Z"/><rect class="cls-5" x="548.55" y="5.08" width="84.13" height="87.79" rx="42.06" transform="translate(639.59 -541.64) rotate(90)"/><rect class="cls-2" x="917.68" y="111.04" width="84.13" height="87.79" rx="42.06" transform="translate(1114.68 -804.81) rotate(90)"/><rect class="cls-5" x="493.31" y="20.22" width="84.13" height="269.44" rx="42.06" transform="translate(690.31 -380.43) rotate(90)"/><rect class="cls-6" x="305.91" y="111.04" width="84.13" height="87.79" rx="42.06" transform="translate(502.91 -193.03) rotate(90)"/></svg>
+                    </div>
+                </div>
+
+                <div class="row featurette scroll1">
+                    <div class="col-md-7">
+                        <h2 class="featurette-heading" style="font-weight: 600;">Once parejas sellaron legalmente su compromiso <span class="text-muted" style="font-weight: 600;"> ante autoridades de Mariño </span></h2>
+                        <p class="lead">Momentos de emoción vivieron once parejas del municipio Mariño que decidieron unirse en matrimonio en las Bodas Colectivas organizadas por la Fundación Social Santiago Mariño.</p>
+                        <p><a class="btn btn-secondary" href="./noticia-1/index.html">Ver Más &raquo;</a></p>
+                    </div>
+                    <div class="col-md-5">
+                        <a href="./noticia-1/index.html"><img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="https://i.postimg.cc/ry1BtSYC/noticia-1.jpg" alt="Foto 1" style="width: 500px;"></a>
+                    </div>
+                </div>
+
+                <hr class="featurette-divider">
+
+                <div class="row featurette scroll1">
+                    <div class="col-md-7 order-md-2">
+                        <h2 class="featurette-heading" style="font-weight: 600;">Mariño conmemora el día de la juventud <span class="text-muted" style="font-weight: 600;"> con baile y coreografía </span></h2>
+                        <p class="lead">La Fundación Social Santiago Mariño de la mano de la primera dama, doctora Daniella Parra, realizó una intervención multidisciplinaria a tres niños abandonados en un edificio ubicado en la calle La Marina del sector Los Cocos.</p>
+                        <p><a class="btn btn-secondary" href="./noticia-2/index.html">Ver Más &raquo;</a></p>
+                    </div>
+                    <div class="col-md-5 order-md-1">
+                        <a href="./noticia-2/index.html"><img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="https://i.postimg.cc/mgL1GNKd/noticia-2.jpg" alt="Foto 2" style="width: 500px;"></a>
+                    </div>
+                </div>
+
+                <hr class="featurette-divider">
+
+                <div class="row featurette scroll1">
+                    <div class="col-md-7">
+                        <h2 class="featurette-heading" style="font-weight: 600;">Súper Clase Activa brindó <span class="text-muted" style="font-weight: 600;"> una tarde diferente a mariñenses </span></h2>
+                        <p class="lead">Alegría y mucho entusiasmo fue el ambiente que se vivió durante la inauguración del programa social "Tu Semana Activa" de la Fundación Social Santiago Mariño, el cual busca brindar un espacio de esparcimiento al aire libre para
+                            los mariñenses y visitantes.</p>
+                        <p><a class="btn btn-secondary" href="./noticia-3/index.html">Ver Más &raquo;</a></p>
+                    </div>
+                    <div class="col-md-5">
+                        <a href="./noticia-3/index.html"><img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="https://i.postimg.cc/VNGDQN6h/noticia-3.jpg" alt="Foto 3" style="width: 500px;"></a>
+                    </div>
+                </div>
+
+                <hr class="featurette-divider">
+
+                <!-- /END THE FEATURETTES -->
+
+                <div class="d-flex justify-content-center m-5">
+                    <nav>
+                        <ul class="pagination">
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">Siguiente</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+
+            </div>
+            <!-- /.container -->
+
+            <!-- OPEN FOOTER -->
+            <div class="container">
+                <footer class="d-flex flex-wrap justify-content-center align-items-center py-3 my-4 border-top">
+                    <div class="col-md-4 d-flex  justify-content-start">
+                        <a class="mb-3 me-2 mb-md-0 lh-1" href="https://alcaldiademarino.com/"><img src="https://i.postimg.cc/FNp2Hc09/3-Logo-Alcaldia-de-Marin-o-horizontal.png" alt="logo" style="width: 120px;"></a>
+                        <a class="mb-3 me-2 mb-md-0 lh-1" href="https://alcaldiademarino.com/"><img src="https://i.postimg.cc/5xB5f5Fg/8-Logo-Chino-horizontal-2.png" alt="logo" style="width: 120px;"></a>
+                        <a class="mb-3 me-2 mb-md-0 lh-1" href="https://alcaldiademarino.com/"><img src="https://i.postimg.cc/2ztbW2Br/9-Logo-marin-o-es-Marino-horizontal-para-fondo-blanco-y-azul-1.png" alt="logo" style="width: 100px"></a>
+                    </div>
+
+                    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+
+                        <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/fundasmarino/"><svg class="bi" width="30" height="30" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram" class="svg-inline--fa fa-instagram" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#E1306C" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path><use xlink:href="#instagram"/></svg></a></li>
+                        <li class="ms-3"><a class="text-muted" href="https://twitter.com/fundasmarino"><svg class="bi" width="30" height="30" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter" class="svg-inline--fa fa-twitter" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="#1da1f2" d="M459.4 151.7c.325 4.548 .325 9.097 .325 13.65 0 138.7-105.6 298.6-298.6 298.6-59.45 0-114.7-17.22-161.1-47.11 8.447 .974 16.57 1.299 25.34 1.299 49.06 0 94.21-16.57 130.3-44.83-46.13-.975-84.79-31.19-98.11-72.77 6.498 .974 12.99 1.624 19.82 1.624 9.421 0 18.84-1.3 27.61-3.573-48.08-9.747-84.14-51.98-84.14-102.1v-1.299c13.97 7.797 30.21 12.67 47.43 13.32-28.26-18.84-46.78-51.01-46.78-87.39 0-19.49 5.197-37.36 14.29-52.95 51.65 63.67 129.3 105.3 216.4 109.8-1.624-7.797-2.599-15.92-2.599-24.04 0-57.83 46.78-104.9 104.9-104.9 30.21 0 57.5 12.67 76.67 33.14 23.72-4.548 46.46-13.32 66.6-25.34-7.798 24.37-24.37 44.83-46.13 57.83 21.12-2.273 41.58-8.122 60.43-16.24-14.29 20.79-32.16 39.31-52.63 54.25z"></path><use xlink:href="#twitter"/></svg></a></li>
+                        <li class="ms-3"><a class="text-muted" href="https://www.facebook.com/fundasmarino/"><svg class="bi" width="30" height="30" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-square" class="svg-inline--fa fa-facebook-square" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#134189" d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.3V327.7h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0 -48-48z"></path><use xlink:href="#facebook"/></svg></a></li>
+                    </ul>
+                </footer>
+                <span class="text-muted d-flex justify-content-center m-5">&copy; 2022 Fundación Social Santiago Mariño</span>
+            </div>
+            <!-- CLOSE FOOTER -->
+    </scroll-container>
+    </main>
+
+    <!-- CLOSE MAIN -->
+
+    <!-- SCRIPTS -->
+    <script src="jquery.min.js"></script>
+    <script src="owl.carousel.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+
+</html>

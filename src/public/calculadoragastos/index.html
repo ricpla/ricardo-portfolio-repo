@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertidor</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- Seccion del header -->
+    <header>Rick</header>
+    <main>
+
+        <!-- Seccion para mostrar el valor -->
+        <section id="display"></section>
+
+        <section id="editor">
+            <div id="input-container">
+
+                <!-- Input -->
+                <input type="text" id="title" placeholder="Introduce here...">
+
+                <!-- Input -->
+                <input type="number" id="cost" placeholder="Price...">
+
+                <!-- Selecionador para tipo de moneda -->
+                <select name="" id="currency">
+                    <!-- Opciones del seleccionador -->
+                    <option value="BS">BS</option>
+                    <option value="USD">USD</option>
+                </select>
+
+
+            </div>
+            <!-- Boton para agregar un item -->
+            <button id="buttonAdd">Agregar</button>
+        </section>
+
+        <!-- Seccion para mostrar los items -->
+        <section id="items"></section>
+
+    </main>
+    <script src="./js/Expenses.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
