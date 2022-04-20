@@ -1,14 +1,356 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ricardo Pla - Portfolio</title>
+
+
+    <!-- REMIX ICON -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--==================== CSS ==============================-->
+    <link rel="stylesheet" href="./css/styles.css">
+
 </head>
 
 <body>
+
+
+    <!-- ===================== HEADER ========================== -->
+
+    <header class="profile container">
+        <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+        <div class="profile-container grid">
+            <div class="profile-data">
+                <div class="profile-border">
+                    <div class="profile-perfil">
+                        <img src="https://i.postimg.cc/fRWr9VJ5/SAVE-20220313-212718-1-1-removebg-preview.png" alt="">
+                    </div>
+                </div>
+
+                <h2 class="profile-name">
+                    Ricardo Pla
+                </h2>
+                <h3 class="profile-profession">
+                    Web Developer
+                </h3>
+
+                <ul class="profile-social">
+                    <a href="https://twitter.com/ercuchillero" target="_blank" class="profile-social-link">
+                        <i class="ri-twitter-line"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/ricardo-pla/" target="_blank" class="profile-social-link">
+                        <i class="ri-linkedin-box-line"></i>
+                    </a>
+                    <a href="https://github.com/ricpla" target="_blank" class="profile-social-link">
+                        <i class="ri-github-line"></i>
+                    </a>
+                </ul>
+            </div>
+
+            <div class="profile-info grid">
+                <div class="profile-info-group">
+                    <h3 class="profile-info-number">1</h3>
+                    <p class="profile-info-description">Year of <br> work</p>
+                </div>
+                <div class="profile-info-group">
+                    <h3 class="profile-info-number">3</h3>
+                    <p class="profile-info-description">Completed <br> projects</p>
+                </div>
+                <div class="profile-info-group">
+                    <h3 class="profile-info-number">15</h3>
+                    <p class="profile-info-description">IT Courses <br> aproved</p>
+                </div>
+            </div>
+
+            <div class="profile-buttons">
+                <a download="" href="" class="button">
+                    Download CV <i class="ri-download-2-line"></i>
+                </a>
+
+                <div class="profile-buttons-small">
+                    <a href="https://api.whatsapp.com/send?phone=584248318037&text=Hello, Im Ricardo Pla! Text with me"
+                        target="_blank" class="button button-small button-gray">
+                        <i class="ri-whatsapp-line"></i>
+                    </a>
+                    <a href="" target="_blank" class="button button-small button-gray">
+                        <i class="ri-mail-line"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- ===================== MAIN ========================== -->
+
+    <main class="main">
+
+        <section class="filters container">
+            <!-- FILTER TABS -->
+            <ul class="filters-content">
+                <button class="filters-button filter-tab-active" data-target="#projects">
+                    Projects
+                </button>
+
+                <button class="filters-button" data-target="#skills">
+                    SKILLS
+                </button>
+            </ul>
+
+            <div class="filters-sections">
+
+                <!-- PROJECTS -->
+                <div class="projects-content grid" data-content id="projects">
+
+                    <article class="projects-card">
+                        <img src="https://i.postimg.cc/sxRnDXkY/marinoturismo-100.jpg" alt="" class="projects-img">
+
+                        <div class="projects-modal">
+                            <div>
+                                <span class="projects-subtitle">Web</span>
+                                <h3 class="projects-title">Static Site</h3>
+                                <a href="https://marinoturismo.herokuapp.com/" target="_blank" class="projects-button button button-small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects-card">
+                        <img src="https://i.postimg.cc/FK8W8GGn/fundacionmarino-100.jpg" alt="" class="projects-img">
+
+                        <div class="projects-modal">
+                            <div>
+                                <span class="projects-subtitle">Web</span>
+                                <h3 class="projects-title">Static Site</h3>
+                                <a href="./fundacion" target="_blank" class="projects-button button button-small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects-card">
+                        <img src="https://i.postimg.cc/qqX1trr9/grupocomienza-100.jpg" alt="" class="projects-img">
+
+                        <div class="projects-modal">
+                            <div>
+                                <span class="projects-subtitle">Web</span>
+                                <h3 class="projects-title">Static Site</h3>
+                                <a href="https://grupocomienza.com/" target="_blank" class="projects-button button button-small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects-card">
+                        <img src="https://i.postimg.cc/Qd6nkj7D/Sin-t-tulo-2.png" alt="" class="projects-img">
+
+                        <div class="projects-modal">
+                            <div>
+                                <span class="projects-subtitle">Web</span>
+                                <h3 class="projects-title">Landing Page</h3>
+                                <a href="https://cmujerpositiva.com/10-pasos-para-ser-una-mujer-positiva/" target="_blank" class="projects-button button button-small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects-card">
+                        <img src="https://i.postimg.cc/9FYk0dFr/fullstackapp-100.jpg" alt="" class="projects-img">
+
+                        <div class="projects-modal">
+                            <div>
+                                <span class="projects-subtitle">Web</span>
+                                <h3 class="projects-title">Web App</h3>
+                                <a href="https://books-add-app.herokuapp.com/" target="_blank" class="projects-button button button-small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects-card">
+                        <img src="https://i.postimg.cc/KzhV4JL3/secure-rest-api-in-nodejs-18f43b3033c239da5d2525cfd9fdc98f.png" alt="" class="projects-img">
+
+                        <div class="projects-modal">
+                            <div>
+                                <span class="projects-subtitle">Web</span>
+                                <h3 class="projects-title">REST API</h3>
+                                <a href="https://books-add-app.herokuapp.com/api/books" target="_blank" class="projects-button button button-small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+
+                <!-- SKILLS -->
+                <div class="skills-content grid" data-content id="skills">
+                    <div class="skills-area">
+                        <h3 class="skills-title">
+                            Frontend Developer
+                        </h3>
+
+                        <div class="skills-box">
+                            <div class="skills-group">
+
+                                <div class="skills-data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills-name">HTML</h3>
+                                        <span class="skills-level">Intermediate</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills-data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills-name">CSS</h3>
+                                        <span class="skills-level">Intermediate</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills-data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills-name">Javascript</h3>
+                                        <span class="skills-level">Intermediate</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills-group">
+
+                                <div class="skills-data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills-name">React</h3>
+                                        <span class="skills-level">Basic</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills-data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills-name">Bootstrap</h3>
+                                        <span class="skills-level">Intermediate</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills-data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills-name">Git</h3>
+                                        <span class="skills-level">Basic</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills-area">
+                        <h3 class="skills-title">
+                            Backend Developer
+                        </h3>
+
+                        <div class="skills-box">
+                            <div class="skills-group">
+
+                                <div class="skills-data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills-name">NodeJs</h3>
+                                        <span class="skills-level">Intermediate</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills-data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills-name">PHP</h3>
+                                        <span class="skills-level">Basic</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills-data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills-name">Typescript</h3>
+                                        <span class="skills-level">Basic</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills-group">
+
+                                <div class="skills-data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills-name">MongoDB</h3>
+                                        <span class="skills-level">Basic</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills-data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills-name">Python</h3>
+                                        <span class="skills-level">Basic</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills-data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills-name">MySQL</h3>
+                                        <span class="skills-level">Basic</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ===================== FOOTER ========================== -->
+
+    <footer class="footer container">
+        <span class="footer-copy">
+            &#169; Ricardo Pla. All rigths reserverd
+        </span>
+    </footer>
+
+
+
+
+    <!--     
     <h1>HOME PRINCIPAL ESTATICO</h1>
     <hr>
     <h3>Links:</h3>
@@ -16,8 +358,10 @@
     <a href="./calculadoragastos">Calculadora de gastos (Front End App)</a><br>
     <a href="./fundacion">Fundacion Mariño (Static Front End Web)</a><br>
     <a href="./grupocomienza">Grupo Comienza (Static Front End Web)</a><br>
-    <a href="./color-flipper">Color Flipper (Front End App)</a><br>
-
+    <a href="./color-flipper">Color Flipper (Front End App)</a><br> -->
 </body>
+
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="./js/main.js"></script>
 
 </html>
