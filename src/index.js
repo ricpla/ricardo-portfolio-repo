@@ -18,7 +18,7 @@ app.use(cors());
 });*/
 
 // Static Files Routes
-app.use('/', express.static(path.join(__dirname, 'public')))
+app.use('/', express.static(path.join(__dirname, 'public')));
 app.use('/fundacion', express.static(path.join(__dirname, 'public/fundacion')));
 app.use('/color-flipper', express.static(path.join(__dirname, 'public/color-flipper')));
 app.use('/grupocomienza', express.static(path.join(__dirname, 'public/grupocomienza')));
